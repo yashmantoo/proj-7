@@ -1,0 +1,229 @@
+body
+{
+    font-family: poppins;
+    width: 94%;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 60px;
+    top: 0px;
+    width: 80%;
+}
+.nav-items
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.75;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-item
+{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 50px;
+}
+nav>:nth-child(3)
+{
+    position: relative;
+    left: 250px;
+    width: 300px;
+}
+.intro-section
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+    left: 60px;
+}
+.left-section
+{
+    flex-direction: column;
+    flex: 1.4;
+}
+.left-section>h3
+{
+    font-weight: 200;
+    font-size: 30px;
+}
+.left-section>h1
+{
+    font-family: Fredoka One;
+    font-weight: 800;
+    font-size: 65px;
+    position: relative;
+    top: -20px;
+}
+.sub-headline
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: -25px;
+}
+.sub-headline>img
+{
+    background-color: #FE5E35;
+    border-radius: 50%;
+    padding: 6px;
+    transform: scale(0.8);    
+}
+.text
+{
+    font-weight: 200;
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+}
+.action-btn
+{
+    position: relative;
+    top: -35px;
+    background-color: #FE5E35;
+    border-style: none;
+    padding: 12px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: larger;
+}
+.right-section
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+    position: relative;
+    left: -80px;
+}
+.discount
+{
+    position: relative;
+    top: 280px;
+    left: -20px;
+    transform: scale(0.8);
+    
+}
+.discount-content
+{
+    position: relative;
+    left: 40px;
+    top: 70px;
+    color: #fff;
+}
+.discount-content>h4
+{
+    position: relative;
+    top: 40px;
+}
+.discount-content>h1
+{
+    font-family: Fredoka One;
+    font-weight: 400;
+    font-size: 50px;
+    position: relative;
+    left:-10px;
+    top: px;
+}
+.headphone-div
+{
+    position: relative;
+    left: 89px;
+    top: -40px;
+    width: 90%;
+}
+.headphone-div> :nth-child(3)
+{
+    position: relative;
+    top: -400px;
+    left: -40px;
+    transform: scale(0.8);
+    z-index: -1;
+}
+.dots
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    position: relative;
+    top: -520px;
+    left: 270px;
+}
+.yellow-dot{background-color: yellow; border-radius: 50%;width: 25px; height: 25px;}
+.tomato-dot{background-color: tomato; border-radius: 50%;width: 25px; height: 25px;}
+.black-dot{background-color: black; border-radius: 50%;width: 25px; height: 25px;}
+
+.right-section>button
+{
+    position: relative;
+    top: -507px;
+    width: 200px;
+    height: 45px;
+    left: 262px;
+}
+.hamb{
+    display: none;
+}
+@media only screen and (max-width: 1140px) {
+    nav{
+        position: relative;
+        top: -50px;
+    }
+    .intro-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        top: -100px;
+    }
+    .headphone-div> :nth-child(3){
+        transform: scale(0.7);
+    }
+    .right-section{
+        height: 500px;
+    }
+    .headphone-div{
+        height: 500px;
+    }
+    .dots{
+        position: relative;
+        top: -50px;
+    }
+    .right-section>button{
+        position: relative;
+        top: -20px;
+    }
+    .hamb{
+        display: block;
+        transform: scale(0.2);
+        position: relative;
+    }
+    .nav-items{
+        display: none;
+    }
+    .actions{
+        display: none;
+    }
+    nav{
+        width: auto;
+        justify-content: space-evenly;
+        position: relative;
+        left: -60px;
+    }
+
+
+}
