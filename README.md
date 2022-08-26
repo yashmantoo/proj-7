@@ -10,7 +10,7 @@ In this project I have created a landing page from scratch. And I learned a lot 
 # 💻 Tech Stack Used :
 
   - HTML - Hyper Text Markup Language
-  - Tailwind css - A Utility First Framework of CSS
+  - CSS  - Cascading Style Sheets
 
 ## 📝 Features
 
